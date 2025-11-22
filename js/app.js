@@ -13,7 +13,7 @@ const mockProducts = [
     price: 29.90, 
     category: 'pesca', 
     subcategory: 'iscas', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Iscas+PLA', 
+    image: 'imagens/Produtos/IscaArtificias.png',
     featured: true, 
     description: 'Iscas ecológicas feitas em PLA biodegradável, ideais para pesca sustentável.' 
   },
@@ -23,7 +23,7 @@ const mockProducts = [
     price: 19.90, 
     category: 'pesca', 
     subcategory: 'acessorios', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Boias+Eco', 
+    image: 'imagens/Produtos/Boias.png',
     featured: true, 
     description: 'Boias leves e resistentes feitas de PLA com cortiça natural.' 
   },
@@ -33,7 +33,7 @@ const mockProducts = [
     price: 59.90, 
     category: 'pesca', 
     subcategory: 'equipamentos', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Suporte+Vara', 
+    image: 'imagens/Produtos/Suporte.png',
     featured: false, 
     description: 'Suporte resistente combinando bambu sustentável e PLA reciclado.' 
   },
@@ -43,7 +43,7 @@ const mockProducts = [
     price: 89.90, 
     category: 'pesca', 
     subcategory: 'organizacao', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Caixa+PLA', 
+    image: 'imagens/Produtos/CaixaOrganizadora.png',
     featured: false, 
     description: 'Organizador durável feito com PLA reciclado para guardar acessórios.' 
   },
@@ -53,7 +53,7 @@ const mockProducts = [
     price: 24.90, 
     category: 'pesca', 
     subcategory: 'anzol', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Anzois+Eco', 
+    image: 'imagens/Produtos/Anzois.png',
     featured: true, 
     description: 'Anzóis resistentes com revestimento biodegradável para minimizar impacto ambiental.' 
   },
@@ -63,7 +63,7 @@ const mockProducts = [
     price: 39.90, 
     category: 'pesca', 
     subcategory: 'linha', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Linha+Eco', 
+    image: 'imagens/Produtos/LinhaPesca.png',
     featured: false, 
     description: 'Linha forte e sustentável feita com biopolímeros 100% biodegradáveis.' 
   },
@@ -73,7 +73,7 @@ const mockProducts = [
     price: 49.90, 
     category: 'pesca', 
     subcategory: 'kits', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Kit+Iscas', 
+    image: 'imagens/Produtos/KitMontagem.png',
     featured: true, 
     description: 'Kit completo de montagem de iscas ecológicas com peças feitas em PLA.' 
   },
@@ -83,7 +83,7 @@ const mockProducts = [
     price: 14.90, 
     category: 'pesca', 
     subcategory: 'acessorios', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Chumbadas+Eco', 
+    image: 'imagens/Produtos/Chumbadas.png',
     featured: false, 
     description: 'Substitui o chumbo tradicional por materiais não tóxicos e sustentáveis.' 
   },
@@ -93,7 +93,7 @@ const mockProducts = [
     price: 34.90, 
     category: 'pesca', 
     subcategory: 'ferramentas', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Alicate+PLA', 
+    image: 'imagens/Produtos/ALicateFerramenta.png',
     featured: false, 
     description: 'Ferramenta leve e sustentável com cabo em PLA reforçado com fibras naturais.' 
   },
@@ -103,7 +103,7 @@ const mockProducts = [
     price: 59.00, 
     category: 'pesca', 
     subcategory: 'iscas', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Porta+Iscas', 
+    image: 'imagens/Produtos/Portaisca.png',
     featured: true, 
     description: 'Mantém suas iscas na temperatura ideal com material isolante ecológico.' 
   },
@@ -113,7 +113,7 @@ const mockProducts = [
     price: 79.90, 
     category: 'pesca', 
     subcategory: 'equipamentos', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Suporte+Bambu', 
+    image: 'imagens/Produtos/SuporteDobravel.png',
     featured: false, 
     description: 'Estrutura dobrável e leve feita de bambu certificado.' 
   },
@@ -123,7 +123,7 @@ const mockProducts = [
     price: 119.90, 
     category: 'pesca', 
     subcategory: 'vestuario', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Oculos+Eco', 
+    image: 'imagens/Produtos/Oculo.png',
     featured: true, 
     description: 'Armação feita de PLA reciclado com lentes polarizadas para pesca esportiva.' 
   },
@@ -133,7 +133,7 @@ const mockProducts = [
     price: 89.90, 
     category: 'pesca', 
     subcategory: 'vestuario', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Camiseta+UV', 
+    image: 'imagens/Produtos/CamisetaUV.png',
     featured: false, 
     description: 'Proteção solar e conforto térmico com tecido feito de PET reciclado.' 
   },
@@ -143,7 +143,7 @@ const mockProducts = [
     price: 149.90, 
     category: 'pesca', 
     subcategory: 'acessorios', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Mochila+Eco', 
+    image: 'imagens/Produtos/Bolsa.png',
     featured: true, 
     description: 'Mochila resistente e ecológica feita com lona reciclada de alta durabilidade.' 
   },
@@ -153,7 +153,7 @@ const mockProducts = [
     price: 29.90, 
     category: 'pesca', 
     subcategory: 'acessorios', 
-    image: 'https://placehold.co/400x300/10B981/ffffff?text=Copo+PLA', 
+    image: 'imagens/Produtos/CopoTermico.png',
     featured: false, 
     description: 'Copo térmico feito com PLA compostável e fibras vegetais.' 
   },
